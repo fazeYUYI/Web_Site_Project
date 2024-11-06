@@ -1,0 +1,18 @@
+body{
+	background-color: #89ac76;
+}
+ul{
+	list-style-type: none;
+	width: 600px;
+}
+li a {
+	float: left ;
+  display: inline;
+  text-align: left;
+  width: 100px;
+  height: 25px;
+  padding-top: 5px;
+}
+li a:hover{
+	background-color: #8fbc8f;
+}
