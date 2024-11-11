@@ -5,22 +5,33 @@ body{
 h1{
 	text-align: center;
 	text-align: justify-all;
+	text-shadow: 2px 2px darkseagreen;
 }
-ul{
-	list-style-type: none;
-	width: 600px;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #green;
 }
+
+li {
+  float: left;
+}
+
 li a {
-	float: left ;
-  display: inline;
+  display: block;
+  color: black;
   text-align: center;
-  width: 150px;
-  height: 25px;
-  padding-top: 5px;
+  padding: 22px 25px;
+  text-decoration: none;
 }
-li a:hover{
-	background-color: #8fbc8f;
+
+
+li a:hover {
+  background-color: #6a994e;
 }
+
 table{
 	border-spacing: 3px;
 	margin-right: auto;
@@ -29,7 +40,29 @@ table{
 p{
 	text-align: justify;
 	font-family: Times New Roman, sans-serif;
+	color: greenyellow;
 }
 img:hover {
-  border-radius: 10%;
+  border-radius: 30px;
+}
+.Home p{
+	font-family: Lexend, sans-serif;
+}
+.Consoles table{
+	border-style: solid;
+	border-width: 3px;
+	border-color: darkseagreen;
+background: hsla(108, 6%, 17%, 1);
+background: linear-gradient(90deg, hsla(108, 6%, 17%, 1) 0%, hsla(107, 64%, 48%, 1) 100%);
+}
+.Gamepass p{
+	font-family: Roboto , sans-serif;
+}
+.Products table{
+	background: hsla(108, 6%, 17%, 1);
+	background: linear-gradient(90deg, hsla(108, 6%, 17%, 1) 0%, hsla(107, 64%, 48%, 1) 100%);
+	border-width: 2px;
+}
+.Products p{
+	font-family: Comic Sans MS, sans-serif;
 }
